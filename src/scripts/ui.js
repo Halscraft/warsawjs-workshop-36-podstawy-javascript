@@ -13,3 +13,11 @@ export function createMainContainer() {
     container.classList.add('main');
     return container;
 }
+
+export function createButton() {
+    const button = document.createElement("input");
+    button.type = "button";
+    button.value = "Sound";
+    button.classList.add("btn");
+    return button;
+}
